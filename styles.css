@@ -1,0 +1,149 @@
+body {
+  font-family: "Baloo Bhai", cursive;
+  color: white;
+  background: url("home_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+
+.left img {
+  width: 136px;
+}
+
+.left div {
+  line-height: 19px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.mid {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.navbar {
+  display: inline-block;
+  position: fixed;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: white;
+  padding: 30px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: yellow;
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 43px;
+  display: inline-block;
+}
+
+.intro {
+  padding: 90px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.btn {
+  font-family: "Baloo Bhai", cursive;
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(161, 75, 75);
+}
+
+.yt_text {
+  position: absolute;
+  top: 455px;
+  left: 300px;
+  padding: 10px;
+  size: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#yt {
+  width: 700px;
+  height: 300px;
+  padding: 2px;
+  border: 2px solid red;
+  margin: 20px;
+}
+
+#heading {
+  padding: 10px;
+  size: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+table,
+th,
+td {
+  margin-left: 280px;
+  border: 5px solid red;
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  top: 280px;
+  right: 10px;
+  border: 2px solid white;
+  margin: 80px 80px;
+  padding: 20px;
+  width: 33%;
+  border-radius: 28px;
+}
+
+.form-group input,
+select {
+  font-family: "Baloo Bhai", cursive;
+  text-align: center;
+  display: block;
+  width: 500px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+}
